@@ -1,6 +1,6 @@
-Machine Leaning Based Instagram Marketing Strategy
+**Machine Leaning Based Instagram Marketing Strategy**
 
-ABSTRACT
+**ABSTRACT**
 Supervised and unsupervised learning models answer the question of what are the best actions to
 take. However, action does not end at selection, especially for business strategies such as social media
 marketing. Combining the identification of best actions and the evaluation of actions taken creates a robust
@@ -11,15 +11,14 @@ The project considers the potential of reinforcement learning for strategy devel
 of marketing through influencers on Instagram and the action of selecting which influencer(s) to market
 with on the platform. Both supervised and unsupervised learning will be conducted for comparison and
 complimenting of the reinforcement learning in the strategy development.
-I. INTRODUCTION / BACKGROUND
+**INTRODUCTION / BACKGROUND**
 Social media has extensive usage, that has been steadily growing overtime. Although originally designed
 for social interactions, social media has evolved into a useful tool for influencers, businesses and marketers
 to access the large audience of social media users . However, optimal utilization of social media, in
 order to get returns on investment for businesses and marketers remains a challenge, given the continuous
 evolution of social media and technology. A robust approach is hence needed by businesses and marketers
-to determine what action to take in order to better utilize the opportunity of marketing on social media
-.
- PROBLEM STATEMENT AND MOTIVATION
+to determine what action to take in order to better utilize the opportunity of marketing on social media.
+**PROBLEM STATEMENT AND MOTIVATION**
 The population of social media users create a large audience and consequently a potential market for
 businesses. The social media market differs from the conventional market and hence businesses cannot
 approach marketing using the conventional approaches . Although companies have had time to adapt
@@ -32,7 +31,7 @@ focus. Additionally, data on stock market performance for main brands across ind
 categories for which the posts on Instagram fall and the date on which the posts were published, will be
 used to provide context on influence of social media on stock performance. The data sets will be used in
 the reinforcement, unsupervised and supervised learning to create a strategy that addresses the problem.
- METHODOLOGY / PROPOSED APPROACH
+**METHODOLOGY / PROPOSED APPROACH**
 The system leverages market data, Instagram user behavior data, influencer categorization, predictive
 machine learning, and reinforcement learning in a hybrid analytical framework to help marketers un￾derstand how to best strategise their campaigns on Instagram. Drawing on techniques used in hybrid
 analytical systems of advanced AI, this project combines several analytical layers to develop a scalable,
@@ -61,7 +60,7 @@ approach enabled the system to choose influencer partnerships not only based on 
 marketing strategy .
 Follower-tier analysis also added to this analysis and allowed influencers to be grouped into Nano, Micro,
 Macro, and Mega segments. Distribution analysis revealed that smaller influencers often showed better
-engagement efficiency than larger influencers, thereby delivering further insights for business decisionmaking on influencer marketing budget and campaign planning.
+engagement efficiency than larger influencers, thereby delivering further insights for business decision making on influencer marketing budget and campaign planning.
 We added a supervised learning layer based on a RandomForestRegressor model to forecast the outcomes
 of engagement. These included influencers’ cluster, media type, hashtag type, and post time. Through
 feature importance analysis, it was observed that influencer cluster had the greatest impact on predicting
@@ -71,14 +70,14 @@ was done through Pearson correlation coefficients with major brands. This aspect
 between external financial activities and social media response, contributing another layer of adaptability
 to the campaign.
 The last component of this process was a decision-making strategy using reinforcement learning (RL).
-This RL approach modeled hashtag, time, and media type combinations as strategy states, and estimated engagement as cost. The agent learned to optimally combine exploration of these strategies with exploitation
+This RL approach modeled hashtag, time, and media type combinations as strategy states, and estimated engagement as cost. The agent learned to optimally combine exploration of these strategies with exploitation
 of strategies that performed well in the past. This allowed for iterative development of recommendations
 for optimal times to post on Instagram.
 The unified framework enhances explainability and performance, integrating predictive machine learning
-with explainable business strategy. Other outputs such as predicted engagement rankings, feature importance, influencer value rankings, and Q-value strategy rankings are also provided, helping marketers to
+with explainable business strategy. Other outputs such as predicted engagement rankings, feature importance, influencer value rankings, and Q-value strategy rankings are also provided, helping marketers to
 test and finalise their strategies.
 
-RESULT SECTION
+**RESULT SECTION**
 A complex multi-model artificial intelligence system was successfully developed to produce an effective,
 data-driven Instagram marketing optimization system that incorporated external and internal data sources
 (stock market and Instagram user analytics), influencer behavior reports, supervised machine learning, and
@@ -121,4 +120,4 @@ In conclusion, it achieved its aim of producing an interpretable, scalable AI-ba
 recommendation system that can continuously refine campaign strategies to take into account changes in
 market, audience and influential factors. The fusion of explainable analytical approaches with adaptive
 reinforcement learning enabled an influential strategic system for improving the return on investment in
-social media marketing 
+social media marketing. 
